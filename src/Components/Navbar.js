@@ -15,7 +15,7 @@ const Navbar = () => {
           <SearchIcon className="search-icon" />
           <input
             type="text"
-            placeholder="Search for other favourite groups in ATG"
+            placeholder="Search for other favorite groups in ATG"
           />
         </div>
         <p className="header-left">
