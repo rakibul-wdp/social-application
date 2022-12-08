@@ -4,7 +4,9 @@
 
 .card-left {
   width: 30%;
+  margin-left: 30px;
 }
+
 .card-left-title {
   display: flex;
   align-items: center;

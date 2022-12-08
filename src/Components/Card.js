@@ -11,7 +11,7 @@ const Card = () => {
     <div className="card">
       <img src={card1} alt="card1" />
       <p className="article-text">
-        <span className="article-emoji">&#9997; </span> <span>Article</span>
+        <span className="article-emoji">&#9997; </span> <span className="article-text-inner">Article</span>
       </p>
       <div className="card-title">
         <p>What if famous brands had regular fonts? Meet RegulaBrands!</p>
