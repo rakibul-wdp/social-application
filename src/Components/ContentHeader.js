@@ -1,8 +1,8 @@
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import GroupsIcon from "@mui/icons-material/Groups";
 import React from 'react';
+import "../css/Card.css";
 import "../css/Common.css";
-import "../css/ContentHeader.css";
 
 const ContentHeader = () => {
   return (

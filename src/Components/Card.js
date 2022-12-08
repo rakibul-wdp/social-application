@@ -5,7 +5,6 @@ import React from 'react';
 import avatar1 from "../assets/images/avatar1.png";
 import card1 from "../assets/images/card1.png";
 import "../css/Card.css";
-import "../css/Common.css";
 
 const Card = () => {
   return (
@@ -16,7 +15,7 @@ const Card = () => {
       </p>
       <div className="card-title">
         <p>What if famous brands had regular fonts? Meet RegulaBrands!</p>
-        <MoreHorizIcon />
+          <MoreHorizIcon/>
       </div>
       <div className="card-content">
         <p>

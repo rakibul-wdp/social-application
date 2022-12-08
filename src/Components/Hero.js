@@ -1,6 +1,5 @@
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import React from 'react';
-import "../css/Common.css";
 import "../css/Hero.css";
 
 const Hero = () => {

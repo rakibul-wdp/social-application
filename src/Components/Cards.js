@@ -16,7 +16,7 @@ const Cards = () => {
         <CardThree/>
         <CardFour/>
       </div>
-        <SearchContent/>
+      <SearchContent/>
     </div>
   );
 };
