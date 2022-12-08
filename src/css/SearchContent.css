@@ -1,0 +1,33 @@
+* {
+  font-family: IBM;
+}
+
+.card-left {
+  width: 30%;
+}
+.card-left-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #b8b8b8;
+}
+
+.card-left-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-left-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+@media (max-width: 1200px) {
+  .card-left {
+    display: none;
+  }
+}
