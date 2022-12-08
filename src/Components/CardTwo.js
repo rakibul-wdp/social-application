@@ -4,6 +4,7 @@ import VisibilityIcon from "@mui/icons-material/Visibility";
 import React from 'react';
 import avatar2 from "../assets/images/avatar2.png";
 import card2 from "../assets/images/card2.png";
+import "../css/Card.css";
 
 const CardTwo = () => {
   return (

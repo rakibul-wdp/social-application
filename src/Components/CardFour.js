@@ -5,6 +5,7 @@ import VisibilityIcon from "@mui/icons-material/Visibility";
 import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
 import React from 'react';
 import avatar4 from "../assets/images/avatar4.png";
+import "../css/Card.css";
 
 const CardFour = () => {
   return (

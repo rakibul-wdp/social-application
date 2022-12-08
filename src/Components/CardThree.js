@@ -6,6 +6,7 @@ import VisibilityIcon from "@mui/icons-material/Visibility";
 import React, { useState } from 'react';
 import avatar3 from "../assets/images/avatar3.png";
 import card3 from "../assets/images/card3.png";
+import "../css/Card.css";
 
 const CardThree = () => {
   const [showDetails, setShowDetails] = useState(true);

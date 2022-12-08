@@ -2,7 +2,7 @@ import EditIcon from "@mui/icons-material/Edit";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 import React from 'react';
-import "../css/SearchContent.css";
+import "../css/Card.css";
 
 const SearchContent = () => {
   return (
