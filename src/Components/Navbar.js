@@ -2,6 +2,7 @@ import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import SearchIcon from "@mui/icons-material/Search";
 import React from 'react';
 import logo from "../assets/images/logo.png";
+import "../css/Common.css";
 import "../css/Navbar.css";
 
 const Navbar = () => {

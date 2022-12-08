@@ -1,5 +1,6 @@
 import React from 'react';
 import "../css/Card.css";
+import "../css/Common.css";
 import Card from './Card';
 import CardFour from './CardFour';
 import CardThree from './CardThree';

@@ -5,6 +5,7 @@ import React from 'react';
 import avatar1 from "../assets/images/avatar1.png";
 import card1 from "../assets/images/card1.png";
 import "../css/Card.css";
+import "../css/Common.css";
 
 const Card = () => {
   return (
