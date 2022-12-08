@@ -8,7 +8,7 @@ import avatar4 from "../assets/images/avatar4.png";
 import "../css/Card.css";
 import "../css/Common.css";
 
-const CardFour = () => {
+const JobCard = () => {
   return (
     <div className="card">
             <p className="article-text">
@@ -61,4 +61,4 @@ const CardFour = () => {
   );
 };
 
-export default CardFour;
+export default JobCard;

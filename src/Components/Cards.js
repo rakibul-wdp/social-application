@@ -1,20 +1,20 @@
 import React from 'react';
 import "../css/Card.css";
 import "../css/Common.css";
-import Card from './Card';
-import CardFour from './CardFour';
-import CardThree from './CardThree';
-import CardTwo from './CardTwo';
+import ArticleCard from './ArticleCard';
+import EducationCard from './EducationCard';
+import JobCard from './JobCard';
+import MeetupCard from './MeetupCard';
 import SearchContent from "./SearchContent";
 
 const Cards = () => {
   return (
     <div className="card-main">
       <div className="card-division">
-        <Card/>
-        <CardTwo/>
-        <CardThree/>
-        <CardFour/>
+        <ArticleCard/>
+        <EducationCard/>
+        <MeetupCard/>
+        <JobCard/>
       </div>
       <SearchContent/>
     </div>

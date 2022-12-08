@@ -9,7 +9,7 @@ import card3 from "../assets/images/card3.png";
 import "../css/Card.css";
 import "../css/Common.css";
 
-const CardThree = () => {
+const MeetupCard = () => {
   const [showDetails, setShowDetails] = useState(true);
   return (
     <div className="card">
@@ -74,4 +74,4 @@ const CardThree = () => {
   );
 };
 
-export default CardThree;
+export default MeetupCard;

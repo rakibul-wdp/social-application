@@ -7,7 +7,7 @@ import card2 from "../assets/images/card2.png";
 import "../css/Card.css";
 import "../css/Common.css";
 
-const CardTwo = () => {
+const EducationCard = () => {
   return (
     <div className="card">
             <img src={card2} alt="card1" />
@@ -51,4 +51,4 @@ const CardTwo = () => {
   );
 };
 
-export default CardTwo;
+export default EducationCard;
