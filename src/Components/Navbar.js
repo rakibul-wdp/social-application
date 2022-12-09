@@ -1,10 +1,12 @@
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import SearchIcon from "@mui/icons-material/Search";
-import React from 'react';
+import React, { useState } from 'react';
 import logo from "../assets/images/logo.png";
 import "../css/Navbar.css";
+import LoginModal from "./LoginModal";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
       <header>
@@ -19,10 +21,11 @@ const Navbar = () => {
           />
         </div>
         <p className="header-left">
-          Create Account <span className="header-left-blue">It's Free!</span>
+          <button onClick={() => setIsOpen(true)}>Create Account</button> <span className="header-left-blue">It's Free!</span>
           <ArrowDropDownIcon />
         </p>
       </header>
+      {isOpen && <LoginModal setIsOpen={setIsOpen} />}
     </div>
   );
 };
