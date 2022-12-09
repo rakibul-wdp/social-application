@@ -3,7 +3,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import React, { useState } from 'react';
 import logo from "../assets/images/logo.png";
 import "../css/Navbar.css";
-import LoginModal from "./LoginModal";
+import SignupModal from "./SignupModal";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +25,7 @@ const Navbar = () => {
           <ArrowDropDownIcon />
         </p>
       </header>
-      {isOpen && <LoginModal setIsOpen={setIsOpen} />}
+      {isOpen && <SignupModal setIsOpen={setIsOpen} />}
     </div>
   );
 };
