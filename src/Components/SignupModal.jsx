@@ -65,6 +65,7 @@ const SignupModal = ({ setIsOpen }) => {
                     placeholder="Confirm Password"
                   />
                   <input
+                    onClick={() => setIsOpen(false)}
                     className="signup-input create-account-button"
                     type="button"
                     value="Create Account"

@@ -21,7 +21,7 @@ const Navbar = () => {
           />
         </div>
         <p className="header-left">
-          <button onClick={() => setIsOpen(true)}>Create Account</button> <span className="header-left-blue">It's Free!</span>
+          <span onClick={() => setIsOpen(true)}>Create Account</span> <span className="header-left-blue">It's Free!</span>
           <ArrowDropDownIcon />
         </p>
       </header>
