@@ -35,7 +35,7 @@
 .heading {
   background-color: #effff4;
   margin: 0;
-  padding: 10px 35px 10px 35px;
+  padding: 10px 45px 10px 45px;
   color: #008a45;
   font-weight: 500;
   font-size: 14px;
@@ -43,10 +43,90 @@
 }
 
 .modalContent {
-  padding: 10px;
+  padding: 0 36px 36px 36px;
+  margin-top: -30px;
   font-size: 14px;
   color: #2c3e50;
-  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.signup-header {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.signup-to-signin {
+  color: #2f6ce5;
+}
+
+.main-form-container {
+  width: 50%;
+}
+
+.signup-input-collapse {
+  display: flex;
+  width: 104.2%;
+}
+
+.signup-input {
+  border: 1px solid #d9d9db;
+  width: 100%;
+  padding: 7px;
+  font-size: 15px;
+  color: #8a8a8a;
+  font-weight: 500;
+}
+
+.create-account-button {
+  margin: 20px 0;
+  width: 104.2%;
+  padding: 10px 0;
+  background-color: #2f6ce5;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.signup-social {
+  display: block;
+  width: 104.2%;
+  border: 1px solid #d9d9db;
+  border-radius: 2px;
+  padding: 7px 0;
+  background-color: #fff;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.facebook-icon {
+  color: #2f6ce5;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.google-icon {
+  color: rgb(241, 101, 36);
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.signup-image {
+  width: 50%;
 }
 
 .closeBtn {
