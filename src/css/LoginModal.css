@@ -8,6 +8,7 @@
 }
 
 .centered {
+  width: 45%;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -19,7 +20,7 @@
   height: 170px; */
   background: white;
   color: white;
-  z-index: 10;
+  z-index: 10 !important;
   border-radius: 16px;
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
 }
@@ -52,7 +53,7 @@
 .form-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .signup-heading-container {
@@ -76,7 +77,7 @@
 
 .signup-input-collapse {
   display: flex;
-  width: 104.2%;
+  width: 104.3%;
 }
 
 .signup-input {
@@ -126,7 +127,11 @@
 }
 
 .signup-image {
-  width: 50%;
+  margin-left: 75px;
+}
+
+.signup-image > p {
+  font-size: 10px;
 }
 
 .closeBtn {

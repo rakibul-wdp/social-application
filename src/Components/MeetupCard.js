@@ -10,9 +10,9 @@ import "../css/Card.css";
 import "../css/Common.css";
 
 const MeetupCard = () => {
-  const [showDetails, setShowDetails] = useState(true);
+  const [showDetails, setShowDetails] = useState(false);
   return (
-    <div className="card">
+    <div className="card" style={{position: showDetails && "relative"}}>
             <img src={card3} alt="card1" />
             <p className="article-text">
               <span className="article-emoji">&#128467; </span>{" "}

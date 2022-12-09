@@ -2,6 +2,7 @@ import CancelIcon from "@mui/icons-material/Cancel";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import GoogleIcon from "@mui/icons-material/Google";
 import React from "react";
+import SignupIcon from "../assets/images/icn.png";
 import "../css/LoginModal.css";
 
 const LoginModal = ({ setIsOpen }) => {
@@ -78,7 +79,13 @@ const LoginModal = ({ setIsOpen }) => {
                   <span>Sign up with Google</span>
                 </button>
               </div>
-              <div className="signup-image">hello</div>
+              <div className="signup-image">
+                <img src={SignupIcon} alt="" />
+                <p>
+                  By signing up, you agree to our Terms & conditions, Privacy
+                  policy
+                </p>
+              </div>
             </div>
           </div>
         </div>
