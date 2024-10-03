@@ -1,8 +1,8 @@
 import "./App.css";
-import Cards from "./Components/Cards";
-import ContentHeader from "./Components/ContentHeader";
-import Hero from "./Components/Hero";
-import Navbar from "./Components/Navbar";
+import Cards from "./components/Cards";
+import ContentHeader from "./components/ContentHeader";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
