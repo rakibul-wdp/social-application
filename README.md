@@ -8,4 +8,4 @@
 - JavaScript
 - HTML
 - CSS
-- Bootstrap (though I'm not use much more Bootstrap but yes, I know it very well and also, I have some project with Bootstrap)
+- Bootstrap (though I do not use it much more Bootstrap, but yes, I know it very well, and I have some projects with Bootstrap)
